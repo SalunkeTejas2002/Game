@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page1, #page2, #page3 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.choice {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#message {
+    font-size: 20px;
+    font-weight: bold;
+}
+
